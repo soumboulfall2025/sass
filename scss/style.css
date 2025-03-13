@@ -1,3 +1,27 @@
-nav {
+.container {
   color: #cc2f2f;
+  text-align: center;
+  margin-top: 60px;
+  -webkit-text-decoration: overline black solid 1px;
+          text-decoration: overline black solid 1px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "open sans", sans-serif;
+}
+
+h1 {
+  color: #cc2f2f;
+}
+
+.nav-links {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: flex-end;
+}
+.nav-links .nav-link {
+  display: flex;
+  flex-wrap: wrap;
 }/*# sourceMappingURL=style.css.map */

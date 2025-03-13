@@ -2,6 +2,37 @@ $primarycolor: #fcf7f7;
 $secondarycolor: #161515;
 $tertiarycolor: #cc2f2f;
 
-nav{
+
+
+
+@import "container";
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'open sans', sans-serif;
+}
+
+
+
+
+h1{
     color: $tertiarycolor;
+}
+.nav-links{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: flex-end;
+     
+     .nav-link{
+        display: flex;
+        flex-wrap: wrap;
+     }
+}  
+
+@mixin border-radius($radius){
+    -webkit-border-radius: $radius;
+    -moz-border-radius: $radius;
+    -ms-border-radius: $radius;
+    border-radius: $radius;
 }
